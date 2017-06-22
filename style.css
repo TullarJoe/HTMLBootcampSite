@@ -3,6 +3,6 @@ font-family: "Comic Sans MS";
 }
 
 .navigation li {
- display: inline-block;
+ display: inline;
  margin: 10px;
 }
