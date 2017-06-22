@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-attachment: scroll;
+    background-position: top;
+}
+
+.heading {
+    border-bottom: 3px solid white;
+    background: url(../images/pizza-oven2.jpg) center;
+    background-size: cover;
+    color: floralwhite;
+    font-family: Garamond, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+#pi {
+    display: inline;
+    font-family: Free Mono;
+    padding-left: 10px;
+    font-size: 150%;
+}
+
+ul {
+    background-color: rgba(255, 255, 255, 0.3); 
+    overflow: auto;
+}
+
+/* Navigation Menu */
+.heading li {
+    display: inline-block;
+    float: left;
+    padding: 5px 20px;
+}
+
+li:hover {
+    background-color: white;
+    color: black;
+}
+#order {
+    float: right;
+}
+
+
+
