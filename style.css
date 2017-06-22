@@ -2,7 +2,7 @@
 font-family: "Comic Sans MS";
 }
 
-.navigation {
+.navigation li {
  display: inline-block;
  margin: 10px;
 }
